@@ -15,11 +15,11 @@ el.addEventListener("mouseleave", () => cursorOutline.classList.remove("hover"))
 });
 // ── Typing Animation ───────────────────────────
 const roles = [
-"MIS Specialist",
-"SQL Expert",
-"Dashboard Developer",
 "Data Analyst",
-"Business Intelligence Analyst"
+"MIS Specialist",
+"SQL Developer",
+"AWS QuickSight Developer",
+"Fraud Analytics Specialist"
 ];
 let roleIndex = 0, charIndex = 0, isDeleting = false;
 const typingEl = document.getElementById("typingText");
